@@ -1,5 +1,3 @@
-FROM gcc:13.2.0
-
-RUN apt update && apt -y install cmake libspdlog-dev
+FROM rwthika/ros2:humble-desktop-full
 
 WORKDIR /code
