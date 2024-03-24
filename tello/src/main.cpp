@@ -10,11 +10,6 @@ int main()
     if (!tello.connect()) {
         return 0;
     }
-
-    
-
-    tello.get_wifi_snr();
-
     
     tello.takeoff();
     
